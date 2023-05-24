@@ -5,8 +5,6 @@ name: Check Signed
 on: 
   issue_comment:
 
-  push:
-
 jobs:
   check-signed:
     name: Check CLA signed
