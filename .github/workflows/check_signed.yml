@@ -2,7 +2,7 @@
 
 name: Check Signed
 
-on: 
+on:
   issue_comment:
 
 jobs:
