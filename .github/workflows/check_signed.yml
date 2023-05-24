@@ -18,4 +18,4 @@ jobs:
           repository: dfinity/repositories-open-to-contributions
           path: .github/actions/check_cla_issue/action.yml
       - name: Check CLA issue
-        uses: ./.github/actions/check_cla_issue/action.yml
+        uses: .github/actions/check_cla_issue/action.yml
