@@ -17,5 +17,8 @@ jobs:
         with:
           repository: dfinity/repositories-open-to-contributions
           path: .github/actions/check_cla_issue
+      - name: Debug
+        run: |
+          ls -a
       - name: Check CLA issue
         uses: ./.github/actions/check_cla_issue/
