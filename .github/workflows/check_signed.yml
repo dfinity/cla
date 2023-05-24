@@ -19,6 +19,6 @@ jobs:
           path: .github/actions/check_cla_issue
       - name: Debug
         run: |
-          ls .github/
+          ls .github/actions/check_cla_issue/
       - name: Check CLA issue
         uses: ./.github/actions/check_cla_issue/
