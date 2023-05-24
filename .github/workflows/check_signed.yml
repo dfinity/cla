@@ -19,4 +19,4 @@ jobs:
       - name: Check CLA issue
         uses: ./.github/actions/check_cla_issue/
         with:
-          issue-id: {{ github.event.number }}
+          issue-id: ${{ github.event.number }}
