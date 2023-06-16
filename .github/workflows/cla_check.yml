@@ -11,4 +11,4 @@ on:
 
 jobs:
   call-cla-check:
-    uses: dfinity/repositories-open-to-contributions/.github/workflows/check_cla.yml
+    uses: dfinity/repositories-open-to-contributions/.github/workflows/check_cla.yml@v1
