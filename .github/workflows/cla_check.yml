@@ -1,0 +1,14 @@
+# Workflow to check if a user is eligible to contribute or needs to sign the CLA
+
+name: Check CLA
+
+on:
+  pull_request:
+    branches: '**'
+  merge_group:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  call-cla-check:
+    uses: dfinity/repositories-open-to-contributions/.github/workflows/check_cla.yml
