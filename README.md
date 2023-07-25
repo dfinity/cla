@@ -8,4 +8,3 @@ The CLA is asked to be agreed on repositories open to external contributions. In
 
 # test
 
-another test
