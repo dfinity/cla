@@ -7,3 +7,5 @@ If important rewrites were made that would need all users to review again the do
 The CLA is asked to be agreed on repositories open to external contributions. In order to open a repository to external contributions you need to send a Pull Request on [repositories-open-to-contributions](https://github.com/dfinity/repositories-open-to-contributions).
 
 # test
+
+another test
