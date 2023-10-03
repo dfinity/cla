@@ -2,13 +2,15 @@
 
 name: Check Signed
 
-# on:
-#   issue_comment:
+on:
+  issue_comment:
 
 jobs:
   check-signed:
     name: Check CLA signed
     runs-on: ubuntu-latest
+    # Todo: move once testing complete
+    if: ${{ github.event.label.name == 'test' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v3
