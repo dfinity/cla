@@ -1,0 +1,21 @@
+# Workflow to check if a user has correctly signed the CLA
+
+name: Check Signed
+
+# on:
+#   issue_comment:
+
+jobs:
+  check-signed:
+    name: Check CLA signed
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          repository: dfinity/public-workflows
+      - name: Check CLA issue
+        uses: ./reusable_workflows/check_cla/check_cla_issue/
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE_ID: ${{ github.event.issue.number }}
