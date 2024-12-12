@@ -4,6 +4,7 @@ name: Check Issue Signed
 
 on:
   issue_comment:
+    types: [created]
 
 jobs:
   call-check-signed:
