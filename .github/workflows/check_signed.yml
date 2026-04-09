@@ -8,5 +8,5 @@ on:
 
 jobs:
   call-check-signed:
-    uses: dfinity/public-workflows/.github/workflows/check_cla_signed.yml@main
+    uses: dfinity/public-workflows/.github/workflows/check_cla_signed.yml@a947962e6f00131cda27070b41e8e3a629f051c6 # main
     secrets: inherit
